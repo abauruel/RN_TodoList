@@ -21,16 +21,18 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     marginHorizontal: 24,
-    borderRadius: 6,
+    borderRadius: 8,
     marginTop: 40,
   },
   input: {
     flex: 1,
     backgroundColor: "#262626",
-    paddingVertical: 16,
+    paddingVertical: 14,
     paddingLeft: 16,
     fontSize: 16,
     color: "#f2f2f2",
+    borderRadius: 6,
+    height: 54,
   },
   addButton: {
     width: 54,
@@ -81,26 +83,5 @@ export const styles = StyleSheet.create({
   },
   numberTag: {
     color: "#fff",
-  },
-
-  emptyContainer: {
-    alignItems: "center",
-    borderTopWidth: 1,
-    borderColor: "#808080",
-    width: "100%",
-    marginTop: 20,
-  },
-  clipboard: {
-    width: 56,
-    height: 56,
-    marginTop: 48,
-  },
-  mainTextEmpty: {
-    marginTop: 16,
-    color: "#808080",
-    fontWeight: "bold",
-  },
-  subTextEmpty: {
-    color: "#808080",
   },
 });
